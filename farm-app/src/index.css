@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'DM Sans', sans-serif; background: #020d02; color: #fff; min-height: 100vh; }
+.font-te { font-family: 'Noto Sans Telugu', sans-serif !important; }
+@keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+@keyframes slideUp { from{transform:translateY(20px);opacity:0} to{transform:translateY(0);opacity:1} }
+.anim-float { animation: float 3s ease-in-out infinite; }
+.anim-up { animation: slideUp .35s ease; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-thumb { background: #0a2a0a; border-radius: 4px; }
